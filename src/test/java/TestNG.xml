@@ -1,0 +1,30 @@
+<suite name="SanityTest" verbose="1">
+    <test name="mouseActionsTest">
+        <classes>
+            <class name="OrangeCRMTest"/>
+        </classes>
+
+<!--        <parameter name="Datasource" value="XML"/>-->
+
+<!--        <groups>-->
+<!--            <run>-->
+<!--                &lt;!&ndash;                <include name="Sanity"/>&ndash;&gt;-->
+<!--                <include name="linux.*"/>-->
+<!--                <include name="windows.*"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+
+    </test>
+
+    <!--    <groups>-->
+    <!--        <run>-->
+    <!--            <include name="Smoke"/>-->
+    <!--        </run>-->
+    <!--    </groups>-->
+
+    <!--    <test name="KeyboardActionsTest">-->
+    <!--        <classes>-->
+    <!--            <class name="KeyboardActions"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+</suite>
