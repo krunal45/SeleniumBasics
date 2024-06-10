@@ -1,30 +1,30 @@
 <suite name="SanityTest" verbose="1">
-    <test name="mouseActionsTest">
+
+<!--    <test name="createContactsTest">-->
+<!--        <classes>-->
+<!--            <class name="CreateContactTest"/>-->
+<!--        </classes>-->
+<!--    </test>>-->
+
+<!--    <test name="updateContactsTest">-->
+<!--        <classes>-->
+<!--            <class name="UpdateContactTest"/>-->
+<!--        </classes>-->
+<!--    </test>>-->
+    <test name="sanity">
+    <groups>
+        <run>
+            <include name="Regression"/>
+            <exclude name="Sanity"/>
+        </run>
+    </groups>
         <classes>
-            <class name="OrangeCRMTest"/>
+            <class name="CreateContactTest"/>
+            <class name="UpdateContactTest"/>
         </classes>
-
-<!--        <parameter name="Datasource" value="XML"/>-->
-
-<!--        <groups>-->
-<!--            <run>-->
-<!--                &lt;!&ndash;                <include name="Sanity"/>&ndash;&gt;-->
-<!--                <include name="linux.*"/>-->
-<!--                <include name="windows.*"/>-->
-<!--            </run>-->
-<!--        </groups>-->
-
     </test>
 
-    <!--    <groups>-->
-    <!--        <run>-->
-    <!--            <include name="Smoke"/>-->
-    <!--        </run>-->
-    <!--    </groups>-->
-
-    <!--    <test name="KeyboardActionsTest">-->
-    <!--        <classes>-->
-    <!--            <class name="KeyboardActions"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
 </suite>
