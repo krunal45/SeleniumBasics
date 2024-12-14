@@ -15,17 +15,21 @@
     </properties>
      <dependencies>
          <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
          <dependency>
              <groupId>org.seleniumhq.selenium</groupId>
              <artifactId>selenium-java</artifactId>
-             <version>4.11.0</version>
+             <version>4.27.0</version>
          </dependency>
+
+         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
          <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
          <dependency>
              <groupId>io.github.bonigarcia</groupId>
              <artifactId>webdrivermanager</artifactId>
-             <version>5.4.1</version>
+             <version>5.9.2</version>
          </dependency>
+
          <!-- https://mvnrepository.com/artifact/org.testng/testng -->
          <dependency>
              <groupId>org.testng</groupId>

@@ -4,18 +4,19 @@
 <!--        <classes>-->
 <!--            <class name="CreateContactTest"/>-->
 <!--        </classes>-->
-<!--    </test>>-->
+<!--    </test>-->
 
 <!--    <test name="updateContactsTest">-->
 <!--        <classes>-->
 <!--            <class name="UpdateContactTest"/>-->
 <!--        </classes>-->
+<!--    </test>-->
 <!--    </test>>-->
     <test name="sanity">
     <groups>
         <run>
-            <include name="Regression"/>
-            <exclude name="Sanity"/>
+            <include name="Sanity"/>
+            <exclude name="Regression"/>
         </run>
     </groups>
         <classes>

@@ -34,6 +34,4 @@ public class CreateContactTest {
         System.out.println("DB connection closed");
     }
 
-
-
 }

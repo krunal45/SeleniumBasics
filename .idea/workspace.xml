@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f111c113-12da-49aa-8215-2aac0a63dd6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateContactTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UpdateContactTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myFirstScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateContactTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2TSgnXArXEGgT591poFmOgBoAHI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,15 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunManager" selected="TestNG./Users/krunalb/IdeaProjects/Selenium4Practice/src/test/java/TestNG.xml">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.myFirstScript.executor": "Run",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.myFirstScript">
+    <configuration name="myFirstScript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myFirstScript" />
+      <module name="Selenium4Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4Practice" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,18 +79,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestNGParametersExample" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGParametersExample.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium4Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGParametersExample" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -107,19 +107,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.myFirstScript" />
       <item itemvalue="TestNG./Users/krunalb/IdeaProjects/Selenium4Practice/src/test/java/TestNG.xml" />
       <item itemvalue="TestNG.TestNGParametersExample" />
-      <item itemvalue="TestNG.TestNGParametersExample.test3" />
       <item itemvalue="TestNG.TestNGPriorityExample" />
       <item itemvalue="TestNG.CreateContactTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myFirstScript" />
         <item itemvalue="TestNG./Users/krunalb/IdeaProjects/Selenium4Practice/src/test/java/TestNG.xml" />
         <item itemvalue="TestNG.CreateContactTest" />
         <item itemvalue="TestNG.TestNGPriorityExample" />
         <item itemvalue="TestNG.TestNGParametersExample" />
-        <item itemvalue="TestNG.TestNGParametersExample.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +234,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/myFirstScript.java</url>
+          <line>8</line>
+          <properties class="myFirstScript" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
