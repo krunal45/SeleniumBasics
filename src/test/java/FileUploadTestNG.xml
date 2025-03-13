@@ -1,0 +1,12 @@
+<suite name="SanityTest" verbose="1">
+
+    <test name="fileUploadTest">
+        <classes>
+            <class name="FileUploadTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+</suite>
